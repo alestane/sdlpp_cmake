@@ -12,4 +12,10 @@ endif()
 project ("sdlpp_cmake")
 
 # Include sub-projects.
+add_subdirectory ("SDL")
+
+include_directories("SDL/include")
+
+add_subdirectory ("sdlpp")
+
 add_subdirectory ("sdl_project")
