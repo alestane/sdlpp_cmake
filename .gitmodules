@@ -4,3 +4,4 @@
 [submodule "sdlpp"]
 	path = sdlpp
 	url = https://github.com/alestane/sdlpp.git
+	branch = master
